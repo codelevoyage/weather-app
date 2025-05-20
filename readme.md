@@ -51,4 +51,7 @@ http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${ap
 
 ## 📸 Screenshot
 
-![App Screenshot](/weatherApp.jpg)
+![App Screenshot](./public/weatherApp.jpg)
+
+
+
