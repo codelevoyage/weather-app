@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const city = input.value.trim();
     
     if (!city) return;
-    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
     fetchAndDisplay(url);
   })
   
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(position);
       const lat = position.coords.latitude;
       const lon = position.coords.longitude;
-      const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+      const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
       fetchAndDisplay(url);      
     })
 
