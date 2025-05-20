@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/x-icon" href="/faviconWeatherApp.ico" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Weather prep</title>
+  </head>
+
+  <body>
+    
+    <div class="app-container">
+
+      <h1>Weather App ⛅</h1>
+
+      <p id="greeting"></p>
+
+      <!-- Input and control buttons -->
+      <div class="search-container">
+        <input type="text" placeholder="Enter a city..." id="cityInput" autocomplete="off" />
+        <button id="getForecastBtn">Check Weather</button>
+        <button id="getLocationBtn">Use My Location</button>
+        <button id="speakBtn">🔊</button>
+      </div>
+
+      <div id="weatherResult"></div>
+      
+      <!-- Weather animation image -->
+      <div class="weather-animation">
+        <img id="weatherGif"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNia2J0dHVuMXQzbm80dWN6eXE0eXJhbmpzdWVvNmdidjQ1enNyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2vqaiPr1TrevmxCPUV/giphy.gif" 
+        alt="Weather animation" />
+      </div>
+      
+    </div>
+      
+    <script type="module" src="/src/main.js"></script>
+  </body>
+
+</html>
