@@ -6,7 +6,7 @@ import {weatherGIFs, getWeatherSuggestion, getWeatherGif, setGreeting, speakText
 const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 document.addEventListener("DOMContentLoaded", () => {
-   window.speechSynthesis.cancel();
+  window.speechSynthesis.cancel();
 
   // Get DOM elements
   const input = document.getElementById("cityInput");
